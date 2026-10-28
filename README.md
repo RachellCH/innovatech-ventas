@@ -21,7 +21,7 @@ docker run -d --name ventas-local \
   -e DB_PORT=3306 \
   -e DB_NAME=innovatech \
   -e DB_USERNAME=admin \
-  -e DB_PASSWORD=admin123 \
+  -e DB_PASSWORD=<tu_contraseña> \
   -p 8080:8080 \
   innovatech-ventas:latest
 ```
